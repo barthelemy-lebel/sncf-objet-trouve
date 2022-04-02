@@ -2,8 +2,11 @@ import tweepy
 import requests
 
 def replace_caractere(variable):
-    variable=variable.replace("/u00e0","à")
+    variable=variable.replace("\u00e0","à")
     variable = variable.replace("\u00e9","é")
+    variable=variable.replace("\u00e7","ç")
+    variable = variable.replace("\u00e8","è")
+    variable = variable.replace("\u00ea","ê")
     variable = variable.replace('"',"")
 
 
