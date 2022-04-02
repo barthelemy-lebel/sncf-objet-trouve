@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/barthos-lbl/objet-trouve-sncf/logo.png)
+![Screenshot](logo.png)
 # sncf-objet-trouve
 
 Bot twitter publiant la dernière déclaration de decouverte d'objets dans le réseau sncf.
