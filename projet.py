@@ -56,11 +56,11 @@ def requete(url):
 url="https://ressources.data.sncf.com/api/records/1.0/search/?dataset=objets-trouves-restitution&q=&lang=fr&sort=date&facet=date&facet=gc_obo_date_heure_restitution_c&facet=gc_obo_gare_origine_r_name&facet=gc_obo_nature_c&facet=gc_obo_type_c&facet=gc_obo_nom_recordtype_sc_c"
 
 
-API_KEY = "4z46hvPEx60NKZQkEsxDMPh8S"
-API_SECRET = "66LLwmNGaCu7BC26lxX4dGjxnU4IrimUjNQpkboKZh7VRJ38tC"
+API_KEY = "KEY"
+API_SECRET = "SECRET KEY"
 
-ACCESS_TOKEN = "1486752003179126787-o5ZBWTywbSwND7ru8S6M44uvzaPQrW"
-ACCESS_TOKEN_SECRET = "tNKsbhNeTcR5gyNgENWaaTgAnjf8kc9VOR9wzNiKUphob"
+ACCESS_TOKEN = "TOKEN"
+ACCESS_TOKEN_SECRET = "SECRET TOKEN"
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
