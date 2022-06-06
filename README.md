@@ -14,7 +14,5 @@ Il renseigne la gare, la date, le nom de l'objet ainsi que sa nature.
 
 
 
-[ATTENTION !]
 
-Songez à modifier les clés ainsi que les tokens d'authentifications par les votres dans le code.
 
